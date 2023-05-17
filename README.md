@@ -3,7 +3,7 @@
 
 # 사용한 데이터:MIT에서 제공하는 24명 환자의 데이터(EDF),환자 뇌파의 체널정보와 뇌전증 유무를 담은 텍스트 파일(txt)
 
-# 데이터 전처리 방법: EDF 파일을 시각화(Visualization part.ipynb) 후 딥러닝을 할수 있도록 STFT 진행후((Data_preprocessing.ipynb)) H5 file로 저장(Make_hdf5_stft_preprocessing.ipynb)
+# 데이터 전처리 방법: EDF 파일을 시각화(Visualization part.ipynb) 후 딥러닝을 할수 있도록 STFT 진행후(Data_preprocessing.ipynb),위치 정보를 추가해 H5 file로 저장(Make_hdf5_stft_preprocessing.ipynb)
 
 # 사용한 딥러닝 기법:Convlstm2d
 
